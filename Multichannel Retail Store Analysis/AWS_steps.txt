@@ -1,0 +1,9 @@
+created input and output s3 buckets and uploaded files in the input (inputretailstore and outputretailstore)
+create ETL pipeline in AWS glue
+a.created crawler (projectretailstore)
+b. created an iam role, with configuration of "weekly"
+c. created a db with i/p as the input s3 bucket. now it'll have all metadata of the tables
+--crawler now ready--
+--run the crawler. check if table is created--
+created ETL script 
+created a lambda trigger to execute the ETL script
